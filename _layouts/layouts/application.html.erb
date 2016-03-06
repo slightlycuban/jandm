@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<%= stylesheet_link_tag 'layout', :media => 'screen' %>
+		<%= stylesheet_link_tag 'print', :media => 'print' %>
+	</head>
+	<body class="container">
+    <div id="header">
+      <p>The wedding of</p>
+      <h1>Jenny Lynn Jenkins &amp; Michael Andersen Tracy</h1>
+    </div>
+		<div id="content">
+			<%= yield %>
+		</div>
+		<div id="footer">
+      <div id="nav">
+        <ul>
+          <li><%= link_to "Home", '/' %></li>
+          <li><%= link_to "Places to stay", 'lodging' %></li>
+          <li><%= link_to "Where we're registered", 'registry' %></li>
+        </ul>
+      </div>
+    <!--
+			<div class="sunflowers">
+        <%= image_tag("sunflower.png") %>
+        <%= image_tag("sunflower.png") %>
+        <%= image_tag("sunflower.png") %>
+			</div>
+    -->
+		</div>
+	</body>
+</html>
