@@ -1,6 +1,6 @@
 @import "compass";
 
-@include font-face("Tangerine", font-files("Tangerine_Regular-webfont.woff", "Tangerine_Regular-webfont.ttf", "Tangerine_Regular-webfont.svg"));
+@include font-face("Tangerine", font-files("../fonts/Tangerine_Regular-webfont.woff", "../fonts/Tangerine_Regular-webfont.ttf", "../fonts/Tangerine_Regular-webfont.svg"));
 
 $default-text-shadow-color: black;
 $default-text-shadow-blur: 5px;
@@ -9,7 +9,7 @@ html {
 	margin: 0;
   padding: 0; 
   @include background(linear-gradient(top center, #4b5982, #88c5ce));
-  background: url('/images/carolina_background.jpg') center center fixed no-repeat;
+  background: url('../images/carolina_background.jpg') center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
   height: 100%;

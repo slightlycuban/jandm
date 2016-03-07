@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Tangerine";
-  src: url('/fonts/Tangerine_Regular-webfont.woff?1457353616') format('woff'), url('/fonts/Tangerine_Regular-webfont.ttf?1457353616') format('truetype'), url('/fonts/Tangerine_Regular-webfont.svg?1457353616') format('svg');
+  src: url('../fonts/Tangerine_Regular-webfont.woff?1457353616') format('woff'), url('../fonts/Tangerine_Regular-webfont.ttf?1457353616') format('truetype'), url('../fonts/Tangerine_Regular-webfont.svg?1457353616') format('svg');
 }
 /* line 8, ../../_compass/layout.scss */
 html {
@@ -11,7 +11,7 @@ html {
   background: -moz-linear-gradient(top center, #4b5982, #88c5ce);
   background: -webkit-linear-gradient(top center, #4b5982, #88c5ce);
   background: linear-gradient(to bottom center, #4b5982, #88c5ce);
-  background: url("/images/carolina_background.jpg") center center fixed no-repeat;
+  background: url("../images/carolina_background.jpg") center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
   height: 100%;
