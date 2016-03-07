@@ -1,0 +1,92 @@
+/* line 1, ../../_compass/sunflower.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 3, ../../_compass/sunflower.scss */
+html {
+  background: #ccc;
+  height: 100%;
+}
+
+/* line 8, ../../_compass/sunflower.scss */
+body {
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  background: black url("/images/black-white-polka-dots-1.jpg") top center repeat;
+  color: white;
+  box-shadow: 0 0 20px black;
+}
+
+/* line 17, ../../_compass/sunflower.scss */
+div#nav {
+  margin: 0;
+  padding: 3px;
+  background: #f7dd14;
+  text-align: center;
+  color: black;
+}
+
+/* line 25, ../../_compass/sunflower.scss */
+#nav p {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 8pt;
+}
+
+/* line 32, ../../_compass/sunflower.scss */
+#nav > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 37, ../../_compass/sunflower.scss */
+#nav a:hover {
+  text-decoration: underline;
+}
+
+/* line 42, ../../_compass/sunflower.scss */
+#content {
+  height: 100%;
+  background: black;
+  text-align: center;
+}
+
+/* line 48, ../../_compass/sunflower.scss */
+#content * {
+  padding: 10px;
+}
+
+/* line 52, ../../_compass/sunflower.scss */
+#content h1 {
+  color: #f7dd14;
+}
+
+/* line 56, ../../_compass/sunflower.scss */
+#content a {
+  color: white;
+}
+
+/* line 58, ../../_compass/sunflower.scss */
+#footer {
+  height: 120px;
+  border-top: 20px solid #f7dd14;
+  background: black url("/images/black-white-polka-dots-1.jpg") top center repeat;
+  margin: -140px 0 0 0;
+}
+
+/* line 65, ../../_compass/sunflower.scss */
+#footer .sunflowers {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 70, ../../_compass/sunflower.scss */
+#footer .sunflowers img {
+  display: inline;
+  width: 250px;
+  margin: -110px -60px 0;
+}
