@@ -6,7 +6,7 @@ $default-text-shadow-color: black;
 $default-text-shadow-blur: 5px;
 
 html { 
-	margin: 0;
+  margin: 0;
   padding: 0; 
   @include background(linear-gradient(top center, #4b5982, #88c5ce));
   background: url('../images/carolina_background.jpg') center center fixed no-repeat;
@@ -23,7 +23,9 @@ html {
 #header {
   color: white;
   @include single-text-shadow;
-  h1 {font-family: "Tangerine";}
+  h1 {
+    font-family: "Tangerine";
+  }
 }
 
 #content {
@@ -33,8 +35,13 @@ html {
   @include box-shadow;
   padding: 20px;
 
+  /* TODO: switch to display: table or flexbox */
+  > * {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   .slideshow {
-    float: left;
     width: 200px;
     height: 100%;
     margin: 20px;
